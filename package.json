@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-tinyuen",
+  "version": "1.0.0",
+  "author": "tianxiaohu",
+  "license": "ISC",
+  "description": "An Eslint Shareable Config for Javascript Standard Style",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "react",
+    "typescript",
+    "vue",
+    "eslintconfig",
+    "javascript",
+    "airbnb"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tinyuen/eslint-config-tinyuen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tinyuen/eslint-config-tinyuen/issues"
+  },
+  "homepage": "https://github.com/Tinyuen/eslint-config-tinyuen#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}

@@ -11,16 +11,60 @@ Base on [Eslint Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 
 </div>
 
+
+## 😃 Support
+
+- Javascript
+- Typescript
+- React
+- Vue
+- Typescript + React
+- Typescript + Vue
+
+
 ## ⚙ Install
 
-```bash
-npm install eslint-config-tinyuen -D
+You need to install different packages for different Scenes. Refer to the command line below：
+
+- Javascript
+```shell script
+npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-config-tinyuen
 ```
 
+- Typescript
+```shell script
+npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-tinyuen
+```
+
+- React
+```shell script
+npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-config-tinyuen
+```
+
+- Vue
+```shell script
+npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-vue vue-eslint-parser eslint-config-tinyuen
+```
+
+- Typescript + React
+```shell script
+npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-config-tinyuen
+```
+
+- Typescript + Vue
+```shell script
+npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-vue vue-eslint-parser eslint-config-tinyuen
+```
+
+
 ## 🚀 Usage
+
 creat your own `.eslintrc` file and use `estends` option. you can also overwrite some rules by `rules` option.
 
-### For Default
+Like this: extends: ["eslint-config-tinyuen"], and the prefix `eslint-config-` can be omitted.
+
+
+- Javascript
 ```json
 {
   "extends": ["tinyuen"],
@@ -28,7 +72,7 @@ creat your own `.eslintrc` file and use `estends` option. you can also overwrite
 }
 ```
 
-### For React
+- React
 ```json
 {
   "extends": ["tinyuen/react"],
@@ -36,7 +80,7 @@ creat your own `.eslintrc` file and use `estends` option. you can also overwrite
 }
 ```
 
-### For Vue
+- Vue
 ```json
 {
   "extends": ["tinyuen/vue"],
@@ -44,7 +88,7 @@ creat your own `.eslintrc` file and use `estends` option. you can also overwrite
 }
 ```
 
-### For Typescript
+- Typescript
 ```json
 {
   "extends": ["tinyuen/typescript"],
@@ -52,7 +96,7 @@ creat your own `.eslintrc` file and use `estends` option. you can also overwrite
 }
 ```
 
-### For Typescript And React
+- Typescript And React
 ```json
 {
   "extends": ["tinyuen/typescript-react"],
@@ -60,7 +104,7 @@ creat your own `.eslintrc` file and use `estends` option. you can also overwrite
 }
 ```
 
-### For Typescript And Vue
+- Typescript And Vue
 ```json
 {
   "extends": ["tinyuen/typescript-vue"],
@@ -70,5 +114,5 @@ creat your own `.eslintrc` file and use `estends` option. you can also overwrite
 
 ## 🔍 Reference
 
-- [document of eslint rules](https://cn.eslint.org/docs/rules/)
+- [Document Of Eslint Rules](https://cn.eslint.org/docs/rules/)
 - [Eslint Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)

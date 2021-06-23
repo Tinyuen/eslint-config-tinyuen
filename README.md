@@ -26,36 +26,25 @@ Base on [Eslint Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 
 You need to install different packages for different Scenes. Refer to the command line below：
 
-- Javascript
 ```shell script
-npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-config-tinyuen
-```
+// Javascript
+$ npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-config-tinyuen
 
-- Typescript
-```shell script
-npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-tinyuen
-```
+// Typescript
+$ npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-tinyuen
 
-- React
-```shell script
-npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-config-tinyuen
-```
+// React
+$ npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-config-tinyuen
 
-- Vue
-```shell script
-npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-vue vue-eslint-parser eslint-config-tinyuen
-```
+// Vue
+$ npm install --save-dev eslint babel-eslint eslint-plugin-babel eslint-plugin-import eslint-plugin-vue vue-eslint-parser eslint-config-tinyuen
+ 
+// Typescript + React
+$ npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-config-tinyuen
 
-- Typescript + React
-```shell script
-npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-config-tinyuen
+// Typescript + Vue 
+$ npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-vue vue-eslint-parser eslint-config-tinyuen
 ```
-
-- Typescript + Vue
-```shell script
-npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-vue vue-eslint-parser eslint-config-tinyuen
-```
-
 
 ## 🚀 Usage
 

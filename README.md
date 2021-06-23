@@ -48,53 +48,42 @@ $ npm install --save-dev eslint typescript eslint-plugin-babel eslint-plugin-imp
 
 ## 🚀 Usage
 
-creat your own `.eslintrc` file and use `estends` option. you can also overwrite some rules by `rules` option.
+Create your own `.eslintrc` file and use `estends` option. you can also overwrite some rules by `rules` option.
 
-Like this: extends: ["eslint-config-tinyuen"], and the prefix `eslint-config-` can be omitted.
+Like this => extends: ["eslint-config-tinyuen"],  and the prefix `eslint-config-` can be omitted.
 
-
-- Javascript
-```json
+```javascript
+// Javascript Example 
 {
   "extends": ["tinyuen"],
   "rules": {}
 }
-```
 
-- React
-```json
+// React Example 
 {
   "extends": ["tinyuen/react"],
   "rules": {}
 }
-```
 
-- Vue
-```json
+// Vue Example 
 {
   "extends": ["tinyuen/vue"],
   "rules": {}
 }
-```
 
-- Typescript
-```json
+// Typescript Example 
 {
   "extends": ["tinyuen/typescript"],
   "rules": {}
 }
-```
 
-- Typescript And React
-```json
+// Typescript + React Example 
 {
   "extends": ["tinyuen/typescript-react"],
   "rules": {}
 }
-```
 
-- Typescript And Vue
-```json
+// Typescript + Vue Example 
 {
   "extends": ["tinyuen/typescript-vue"],
   "rules": {}

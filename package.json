@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tinyuen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "tianxiaohu",
   "license": "ISC",
   "description": "An Eslint Shareable Config for Javascript Standard Style",
